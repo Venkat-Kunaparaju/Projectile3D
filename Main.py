@@ -28,7 +28,7 @@ class Game(ShowBase):
         self.ball = self.loader.loadModel("bowlingBall.egg")
         self.ball.reparentTo(self.render)
         self.ball.setPosHprScale(-20,.1,self.height, 0, 0 ,0,  2.5, 2.5, 2.5)
-        self.box = self.loader.loadModel("models/box")
+        self.box = self.loader.loadModel("box.egg")
         self.box.reparentTo(self.render)
         self.box.setPosHprScale(-31,.1, 0, 0, 0, 0, 10,10,self.height-1)
         self.box.setColor(0,1,0,1)
